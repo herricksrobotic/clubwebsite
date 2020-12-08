@@ -284,3 +284,8 @@ li a {
 .p {
   font-family: "Lucida Console", monospace;
 }
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
