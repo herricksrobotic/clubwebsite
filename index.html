@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="slideshow.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        padding: 5px;
+        background-color: #cae8ca;
+}
+</style>
+<body>
+    
+    <div class="sticky">
+        <ul style="position: sticky;">
+            <p style="float: left; font-size: 20px; color: white;">
+                <b>&#8287 &#8287 &#8287 &#8287 &#8287 HighlandBots</b> 
+            </p>
+            <li><a href="https://herricksrobotic.github.io/website2020/teamC.html">Team C</a></li>
+            <li><a href="https://herricksrobotic.github.io/website2020/teamB.html">Team B</a></li>
+            <li><a href="https://herricksrobotic.github.io/website2020/teamA.html">Team A</a></li>
+            <li><a class="active" href="https://herricksrobotic.github.io/website2020/index.html">Home</a></li>
+            <li><a href="https://herricksrobotic.github.io/website2020/lowlights.html">Highlights</a></li>
+        </ul>
+    </div>
+
+    <br>
+        
+    <h1>Herricks Robotics</h1>
+    <h2 style="text-align: center;">Our Mission Statement: </h2>
+    <p style="text-align: center; color: goldenrod;">
+        <b>Our Only Competition is our Potential</b>
+    </p>
+    <br>
+
+    <div class="carousel">
+
+        <div class="mySlides fade">
+            <img src="images/1-clubphoto2018-2019.png" style="width:100%">
+            <div class="text">2018-2019 Team group photo</div>
+        </div>
+    
+        <div class="mySlides fade">
+            <img src="images/2-2018excellence award.png" style="width:100%">
+            <div class="text">2018 Excellence award</div>
+        </div>
+    
+        <div class="mySlides fade">
+            <img src="images/3-farmingdale2018.png" style="width:100%">
+            <div class="text">2018 Farmingdale group photo</div>
+        </div>
+        
+        <div class="mySlides fade">
+            <img src="images/4-carleplace.png" style="width:100%">
+            <div class="text">Carle place group photo</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/5-Club Photo.png" style="width:100%">
+            <div class="text">Another group photo</div>
+        </div>
+    
+        <!-- the arrows -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+    
+        <!--The dot things-->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+        
+</body>
+</html>
